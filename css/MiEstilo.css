@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+
+ :root {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #201818;
+}
+
+#imgcecar {
+    display: block;
+    margin-right: auto;
+    width: 15%;
+}
+
+#imgasesorias {
+    margin-top: 12%;
+}
+
+#titulo {
+    display: block;
+    float: right;
+    color: white;
+    margin-right: 25%;
+    width: 50%;
+    margin-top: 1%;
+}
+
+#cartas {
+    float: left;
+    margin-left: 15%;
+}
+
+#cartas2 {
+    float: right;
+    margin-right: 15%;
+}
+
+#contenedor {
+    /*width: 80%;*/
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -10px 5px 5px gray;
+    background: #236b38;
+}
+
+#tituloh {
+    color: #236b38;
+}
+
+#header {
+    background-color: #236b38;
+    padding: 10px;
+    clear: both;
+}
+
+#header h1 {
+    text-align: center;
+}
+
+#menu-contenido {
+    overflow: hidden;
+    background-color: white;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#copy {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    float: left;
+}
+
+#menu {
+    color: black;
+    text-align: center;
+    clear: both;
+}
+
+#menu a:hover {
+    background: #236b38;
+    color: white;
+}
+
+#contenido {
+    background-color: white;
+    text-align: justify;
+    float: center;
+}
+
+#pie h6 {
+    color: white;
+}
+
+#imgpie {
+    width: 40%;
+}
+
+.contacto {
+    margin-left: 25%;
+    margin-right: 30%;
+    clear: both;
+    justify-content: center;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 55vh;
+}
+
+nav .nav-tabs li a {
+    color: green;
+}
+
+nav .active li a {
+    background: #00942c;
+}
+
+#botonEnviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#redes i {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+#embedMap {
+    width: 100%;
+    height: 300px;
+}
+
+#imgizquierda {
+    width: 390px;
+    height: 430px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#imgderecha {
+    width: 390px;
+    height: 250px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#izquierda {
+    margin-bottom: 10%;
+}
+
+#derecha {
+    margin-bottom: 10%;
+}
+
+#tallerescontenedor {
+    text-align: justify;
+}
+
+#parrafo {
+    margin-top: 10%;
+    margin-bottom: 25%;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/hero-bg.png) top center no-repeat;
+    background-size: cover;
+}
+
+#hero {
+    margin-top: 1%;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #236b38;
+}
+
+.hero h2 {
+    color: #444444;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+}
+
+.hero .hero-img {
+    text-align: right;
+}
+
+@media (min-width: 1024px) {
+    .hero {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero {
+        height: auto;
+        padding: 120px 0 60px 0;
+    }
+    .hero .hero-img {
+        text-align: center;
+        margin-top: 80px;
+    }
+    .hero .hero-img img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 32px;
+    }
+    .hero h2 {
+        font-size: 24px;
+    }
+    .hero .hero-img img {
+        width: 100%;
+    }
+}
